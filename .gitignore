@@ -5,3 +5,4 @@
 *.log
 /js/
 index.html
+/coverage/

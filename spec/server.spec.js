@@ -35,7 +35,7 @@ describe('server', function () {
             expect(function () {
                 rpcServer.implement(function (param1, param2) {
                 });
-            }).toThrowError('Cannot implement anonymous function: function (param1, pa...');
+            }).toThrowError(/Cannot implement anonymous function/);
         });
 
         it('handles function with comments in parameter list', function () {

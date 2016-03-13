@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/TimBarham/worker-jsonrpc.svg?branch=master)](https://travis-ci.org/TimBarham/worker-jsonrpc)
+[![Build Status](https://travis-ci.org/TimBarham/worker-jsonrpc.svg?branch=master)](https://travis-ci.org/TimBarham/worker-jsonrpc) [![Coverage Status](http://img.shields.io/coveralls/TimBarham/worker-jsonrpc.svg)](https://coveralls.io/r/TimBarham/worker-jsonrpc)
 
 # JSON-RPC 2.0 for Web Workers
 (Or: 'Yet Another JSON-RPC 2.0 `postMessage` Implementation')
@@ -123,17 +123,16 @@ or
 
 # Building
 
-If you clone from git, you can build using the following steps: 
+    npm run build
 
-First run `babel` to create ES5 compatible files in `lib`:
-
-    npm run babel
-
-The run `webpack` and/or `webpack-min` to create the browser package in `dist`:
-
-    npm run webpack
-    npm run webpack-min
+This first runs `babel` to create ES5 compatible files in `lib`, then `webpack` to create regular and minified browser packages in `dist`.
 
 # Tests
 
-To run tests, enter `npm run test` from the command line.
+Run tests:
+
+    npm run test
+
+Run tests with code coverage:
+
+    npm run cover
