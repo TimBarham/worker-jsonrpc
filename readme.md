@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/TimBarham/worker-jsonrpc.svg?branch=master)](https://travis-ci.org/TimBarham/worker-jsonrpc)
+
 # JSON-RPC 2.0 for Web Workers
 (Or: 'Yet Another JSON-RPC 2.0 `postMessage` Implementation')
 
