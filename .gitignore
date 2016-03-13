@@ -1,0 +1,7 @@
+/.idea/
+/lib/
+/node_modules/
+/dist/
+*.log
+/js/
+index.html
